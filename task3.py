@@ -31,7 +31,7 @@ print(menu)
 # (Don't worry - the shopkeeper checks every order himself)
 
 def get_purchase_info(): # Convert input when necessary
-    item = input(f"What item would you like to purache?\n")
+    item = input(f"What item would you like to purchase?\n")
     price = float(input(f"What is the price of the item?\n"))
     quantity = int(input(f"How many would you like?\n"))
     return item, price, quantity
